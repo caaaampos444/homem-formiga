@@ -1,0 +1,51 @@
+body{
+    background-image: url(./img/background.png);
+    background-size: cover;
+}
+header{
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+footer{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.title__text{
+    color: white;
+    width: 500px;
+    font-family: 'Righteous', cursive;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.description__text{
+    color: white;
+    margin-left: 50px;
+    margin-right: 1300px;
+    font-size: larger;
+    font-family: 'Righteous', cursive;
+}
+.description__logo{
+    margin-left: 50px;
+}
+.video__1{
+    margin-right: 50px;
+}
+.video__2{
+    margin-right: 50px;
+}
+.redes__sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1700px;
+}
+.youtube{
+    margin-bottom: 25px;
+}
+.twitter{
+    margin-bottom: 25px;
+}
+.instagram{
+    margin-bottom: 25px;
+}
