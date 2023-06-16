@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 1fr 150px;
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    font-family: 'Righteous', cursive;
+    background-position: 100%;
+    padding: 32px;
+}
+
+main{
+    display: flex;
+}
+
+.description__text{
+    color:white;
+    width: 45%;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+.redes__sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+footer{
+    display: flex;
+    gap: 22px;
+    align-items: end;
+}
+
+.logo__icon{
+    height: 200px;
+    width: 40%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    grid-gap: 50px;
+}
